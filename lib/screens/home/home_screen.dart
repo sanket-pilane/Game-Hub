@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:shop_tech/screens/home/components/app_bar.dart';
 import 'package:shop_tech/screens/home/components/custome_search_bar.dart';
 import 'package:shop_tech/screens/home/components/list_tile.dart';
-import 'package:shop_tech/screens/home/components/shop_now_cart.dart';
 import 'package:shop_tech/screens/home/components/text_title.dart';
 import 'package:shop_tech/screens/home/components/trending_games_list_tile.dart';
 
@@ -21,7 +20,6 @@ class HomePage extends StatelessWidget {
           children: [
             CustomeAppBar(),
             CustomeSearchBar(),
-            CardTrending(),
             TextTitle(title: "Top Category"),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20.0),

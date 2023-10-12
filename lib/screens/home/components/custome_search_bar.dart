@@ -28,7 +28,7 @@ class CustomeSearchBar extends StatelessWidget {
             hintStyle: TextStyle(
               color: Colors.grey.shade400,
             ),
-            contentPadding: EdgeInsets.all(18)),
+            contentPadding: EdgeInsets.all(16)),
       ),
     );
   }
